@@ -57,12 +57,13 @@ table {
 
 body {
   background-color: hsl(212, 45%, 89%);
+  display: grid;
+  place-items: center;
 }
 
 .wrapper {
   background-color: white;
   max-width: 300px;
-  margin: auto;
   border-radius: 25px;
 }
 
